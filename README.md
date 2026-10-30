@@ -19,7 +19,7 @@ Se implementaron Bubble Sort, Merge Sort, Tree Sort, Heap Sort y Counting Sort e
 
 ## Requisitos
 
-Python 3.10 o posterior y un compilador C++ con soporte C++17 (`g++`). Para las gráficas no hace falta instalar librerías adicionales.
+Python 3.10 o posterior y un compilador C++ con soporte C++17 (`g++`). Para crear las gráficas del repositorio se requiere matplotlib (`pip install matplotlib`).
 
 ## Ejecutar
 
