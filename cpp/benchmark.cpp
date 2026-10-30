@@ -1,5 +1,7 @@
 #include <algorithm>
 #include <chrono>
+#include <cmath>
+#include <stdexcept>
 #include <cstdint>
 #include <cstdlib>
 #include <fstream>
