@@ -1,6 +1,5 @@
 import sys
 import time
-import resource
 
 def bubble(a):
     for i in range(len(a)-1):
@@ -127,6 +126,7 @@ def memoria():
         c=C()
         c.cb=ctypes.sizeof(c)
         return c.PeakWorkingSetSize/1048576 if ctypes.windll.psapi.GetProcessMemoryInfo(ctypes.windll.kernel32.GetCurrentProcess(),ctypes.byref(c),c.cb) else -1
+    import resource
     v=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
     return v/1048576 if sys.platform=="darwin" else v/1024
 
