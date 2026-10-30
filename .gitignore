@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-cpp/benchmark
-cpp/benchmark.exe
-resultados/progreso.log
-resultados/proceso.pid
