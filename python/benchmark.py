@@ -135,8 +135,6 @@ if __name__=="__main__":
     n=int(sys.argv[2])
     seed=int(sys.argv[3]) if len(sys.argv)>3 else 42
     metodos={"bubble":bubble,"merge":merge,"tree":tree,"heap":heap,"counting":counting}
-    if alg=="bubble" and n>5000:
-        raise SystemExit("Limite de seguridad: 5000")
     a=datos(n,seed)
     s=time.perf_counter()
     res=metodos[alg](a)
